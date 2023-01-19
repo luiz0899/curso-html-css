@@ -1,0 +1,34 @@
+
+@charset "UTF-8" ;
+
+* {
+    /*height: 100%;*/
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+   
+    background-image:url(naruto.png.png ) , linear-gradient( to left ,#f7f7f7,#038eff) ;
+   
+}
+
+main{
+    background-color: white;
+    border-radius: 15px ;
+    width: 500px;
+    padding: 10px;
+    margin: auto;
+    box-shadow: 10px 10px 80px  #023E73 ;
+  
+
+}
+h1{
+    color: #023E73;
+    text-shadow: 5px 5px 20px ;
+}
+p{
+
+    color:rgb(9, 9, 9)
+}
+p{
+    text-align: justify ;
+}

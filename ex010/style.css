@@ -1,0 +1,13 @@
+@charset "UTF-8" ;
+
+body{
+    background-color: rgb(164, 206, 201);
+}
+h1#t1 {
+    color: rgb(1, 83, 79);
+    background-color: azure;
+    border-radius: 10PX;
+    text-align: center;
+    background-image: linear-gradient(to left, rgb(3, 95, 70) ,rgb(0, 193, 193));
+
+}

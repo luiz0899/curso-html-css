@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Troca de imagens</h1>
+    <p>para abrir em tamanhos de telas diferentes.</p>
+    
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto_P.png" type="image/png" >
+        <source media="(max-width: 1050px)" srcset="imagens/foto_M.png" type="image/png">
+        <img src="imagens/foto_G.png" alt="Imagem flexivel">
+    </picture>
+
+    <h2> adicionando audios </h2>
+
+    <audio preload="metadata" autoplay controls >
+        <source src=audio/HOJE TEM FESTINHA - JAPÃOZIN.mp3" type="audio/mpeg">
+    </audio>
+     <!-- <audio src="audio/HOJE TEM FESTINHA - JAPÃOZIN.mp3" controls autoplay ></audio>-->
+   
+     <h3>Inserimdo vidio localmente </h3>
+    <video src="video/Meu_Video_modulado.Mp4" width="500 " controls poster="imagens/foto_M.png"></video>
+
+    <h4>Inserindo vidio no youtube</h4>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/3hng-hmSv2Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</body>
+</html>
