@@ -1,0 +1,114 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+}
+@font-face {
+    font-family: 'Cowboy_fig';
+    src: url(../ex13/font/Cowboy.ttf) format(truetype);
+    font-weight: normal;
+   
+}
+@font-face{
+    font-family: 'Cowboy';
+    src: url(../ex13/font/Cowboya-Bifurcated.otf) format(opentype);
+    font-weight: normal;
+}
+
+html,body{
+
+    min-height: 100vh ;
+    background-color: darkgray;
+}
+
+header{
+
+    background-color: rgb(30, 29, 29);
+    color: white;
+    text-align: center;
+    font-size: 2vw;
+
+
+}
+
+header h1 {
+    font-family: "Cowboy";
+    padding-top: 50px;
+    font-variant: small-caps; /*para deixar apena a primeira letra de cada palavra maiuscula */
+   /* text-transform: uppercase; para deixar todas letras maiusculas */
+}
+header p {
+    padding-bottom: 50px ;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-variant: small-caps;
+    font-weight: bolder;
+}
+a:hover{
+    text-decoration: underline;
+}
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding: 30px;
+    font-size: 2vw;
+
+}
+section>p{
+    text-align: justify;
+    border-radius: 10px;
+    padding: 10px ;
+  
+}
+section.normal{
+    background-color: rgb(204, 200, 200);
+
+}
+section.imagem{
+    box-shadow: inset 4px 4px 13px 0px rgb(72, 72, 72);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+section#img_01{
+
+    background-image: url(imagens/rodeio-01.png);
+
+}
+section#img_02 {
+    
+    background-image: url(imagens/rodeio-2.png);
+    position: top;
+
+}
+section.imagem>p{
+    min-width: 250px;
+    max-width: 700px;
+    text-align: justify;
+    background-color: rgba(0, 0, 0, 0.263);
+    color: azure;
+   
+
+}
+section.normal>p{
+   
+    min-width: 250px;
+    max-width: 700px;
+  
+    background-color: rgb(239, 229, 216);
+    
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top:10px ;
+}
+#p_img{
+
+    padding-bottom: 200px ;
+}
